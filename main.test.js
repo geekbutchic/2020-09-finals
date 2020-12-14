@@ -7,7 +7,7 @@ const {
   addToMultiDigitNumbers,
   Faqtory,
 } = require('./main.js')
-
+ 
 
 describe('makeParagraph', () => {
   it(`returns the given sentences as one paragraph`, () => {

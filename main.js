@@ -1,5 +1,23 @@
 // Your code goes below:
 
+function makeParagraph (paragraph) {
+  newParagraph = [];
+
+  for ( let i = 0; i < paragraph.length; i++) {
+    if (paragraph[i] === "'. ") {
+      newParagraph = newParagraph[i] + ". ";
+    } else {
+      newParagraph = newParagraph + paragraph[i];
+    }
+  } 
+  return newParagraph;
+}
+
+
+
+
+
+
 
 
 
