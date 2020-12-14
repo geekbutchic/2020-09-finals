@@ -13,9 +13,22 @@ function makeParagraph (paragraph) {
   return newParagraph;
 }
 
+function makeParagraph (paragraph) {
+  newParagraph = [];
+  for (let i = 0; i < paragraph.length; i++) {
+    if (paragraph[i] === ',') {
+      newParagraph.push(paragraph[i] + '.') 
+    }
+  }
+  return newParagraph;
+}
 
-
-
+function makeParagraph (paragraph) {
+  newParagraph = [];
+  for (let i = 0; i < paragraph.length; i++) {
+    return paragraph;
+  }
+}
 
 
 
